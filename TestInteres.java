@@ -12,7 +12,8 @@ public class TestInteres{
         double C=sc.nextDouble();
         double T=sc.nextDouble();
         double i=sc.nextDouble();
+        double calculoInteres= Interes.calcularInter(C,T,i);
         //mostramos por pantalla el valor del interés
-        System.out.println(Interes.calcularInter(C,T,i));
+        System.out.println(calculoInteres);
    }
 }
